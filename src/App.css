@@ -59,3 +59,69 @@
 .react-pdf__Page__canvas{
   width: 100% !important;
 }
+ 
+.ant-menu-item{
+  border: none !important;
+}
+.ant-btn-text{
+  background: none !important;
+}
+
+header{
+  height:auto !important;
+  border-bottom:1px solid #ddd !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: none !important;
+  transition: none !important;
+}
+ 
+ 
+.menuOne{
+  display: flex;
+  padding: 0;
+  margin: 0;
+   width: 150px;
+   flex-direction: row;
+   justify-content: space-between;
+   position: relative;
+   bottom: 10px;
+}
+
+.menuTwo{
+   display: flex;
+   padding: 0;
+    margin: 0;
+   width: 700px;
+   flex-direction: row;
+   justify-content: space-between;
+   position: relative;
+   bottom: 40px;
+}
+.menuItem{
+   cursor: pointer;
+   padding: 0;
+   margin: 0;
+   color: #aaa;
+   font-size: 12px;
+}
+.menuItem1{
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.right_featurelist{
+   display: flex;
+   padding: 0;
+   margin: 0;
+   flex-direction: row;
+   justify-content: space-between;
+   min-width: 400px;
+   width: auto;
+}
