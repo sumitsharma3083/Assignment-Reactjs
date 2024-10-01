@@ -137,7 +137,7 @@ const LayoutMain : React.FC = ()=>{
                        <div className='h-[100%] relative'>
                            <ul className='right_featurelist'>
                        <li>
-                      {[1,2].map(num=>{
+                      {[1,2].map(()=>{
                         return(
                           <UserOutlined style={{background:"gray", color:"#fff", borderRadius:"7px", fontSize:"25px", padding:"4px", marginRight:"2px"}}/>
                         )
